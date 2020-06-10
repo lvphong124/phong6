@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+      .menuitem:hover{
+        background-color: blue;
+        margin-top: 20px;
+        font-size: 2.1vw;
+        transition: 0.4s;
+
+
+
+      }
+      .dt:hover{
+        background-color: blue;
+        margin-top: 20px;
+        transition: 0.4s;
+        height: 300px;
+        width: 450px
+
+
+
+      }
+    </style>
+
+    
+</head>
+<body>
+  
+  <div class="session1">  
+    <a href="home.html">
+    <img src="logo3.png" class="logo">
+
+
+     
+  </a>  
+  
+
+
+
+  
+ 
+  
+
+  <div>
+  
+  <nav>
+   
+                <a class=" menuitem " href="index.html">Trang chủ </a>
+                <a class=" menuitem " href ="dangky.html" >Đăng ký </a>
+                <a class=" menuitem " href="dangnhap.html">Đăng nhập</a>
+                <a class=" menuitem " href="gtsp.html">Phụ kiện</a>
+                <a class=" menuitem "href="">Điện thoại</a>
+                <a class="menuitem"href="">Liên hệ</a>
+              
+            </nav>  
+                </div>
+              
+
+              
+       
+  
+  <div>
+    <img name="slide" class="si" >
+    <a href="https://www.dienmayxanh.com/dien-thoai">
+    <img  src="dienthoai.png" class="dt">
+  </a>
+    
+
+
+   
+  </div>
+  <marquee class="marquee">
+    Xin chào quý khách đã đến với cửa hàng của chúng tôi!!!
+    
+  </marquee>
+
+
+      
+      <dir >
+        <h1 style="text-align: center ;color:red">PHONE SOTRE</h1>
+        <h1>THÔNG TIN CHUNG:</h1>
+        <p1>Xuất phát từ niềm đam mê khám phá các dòng điện thoại Smartphone, PHONESTORE được biết đến là một trong số ít các cửa hàng điện thoại chuyên cung cấp điện thoại Smartphone cũ uy tín tại Hà Nội.<br>Tháng 07 năm 2013, hòa vào xu thế phát triển trên Internet, Lê Phương Mobile đã chính thức có website với tên miền: www.phonestore.vn nhằm đáp ứng tốt hơn về sản phẩm, dịch vụ cung cấp. Bên cạnh những nỗ lực nhằm tạo ra chất lượng dịch vụ, sản phẩm tốt hơn, PHONESTORE còn chú trọng đến sự phát triển của các nhân viên trong cửa hàng, lợi ích của khách hàng.<br>
+          Đến với PHONESTORE, khách hàng sẽ có những trải nghiệm tuyệt vời bởi những cam kết của Lê Phương đối với khách hàng:<br>
+        </p1>
+        <h1>1. Cam kết về giá bán tốt nhất:</h1>
+        <p2>Là đơn vị chuyên cung cấp các dòng điện thoại Smarphone cũ uy tín nên chúng tôi luôn cam kết 100% sản phẩm của Lê Phương là sản phẩm chính hãng và được bán với giá cạnh tranh nhất, cùng chế độ hậu mãi chuyên nghiệp.</p2>
+        <h1>2. Cam kết về sản phẩm đa dạng:</h1>
+        <p>Lê Phương Mobile luôn đa dạng hóa sản phẩm công nghệ: điện thoại di động, laptop, máy tính bảng, và các mặt hàng linh phụ kiện kèm theo. Chúng tôi cam kết tất cả các sản phẩm được bày bán tại cửa hàng được nhập khẩu, lắp ráp chính hãng của các thương hiệu nổi tiếng trong và ngoài nước như: Nokia, Samsung, HTC, LG, Sony, HP, Apple…</p>
+        <h1>3. Cam kết dịch vụ toàn diện:</h1>
+        <p>Với mong muốn là người bạn tin cậy của khách hàng, PHONESTORE cam kết đem đến cho khách hàng những dịch vụ hoàn hảo với chất lượng phục vụ nhất. Các dịch vụ tại Lê Phương Mobile: Đổi trả hàng miễn phí, Bảo hành 24 giờ, Chăm sóc khách hàng 24/7.</p>
+
+
+        
+
+        
+
+      
+        
+      </dir>
+      
+
+
+      <p2 style="text-align: center; font-size: 30px color:; "> <p2>
+    </div>
+    
+   
+</body>
+
+    <script >
+      var i=0;
+      var images=[];
+      var time=5000;
+      images[0]="giaodien1.jpg";
+      images[1]="nhomTLTP.PNG";
+      images[2]="1.jpg";
+      function changeimage(){
+        document.slide.src=images[i];
+        if(i<images.length - 1){
+          i++;
+
+        }else{
+          i=0;
+        }
+        setTimeout("changeimage()",time);
+
+      }
+      window.onload=changeimage; 
+
+      
+    </script>
+    
+
+
+  
+    
+</html>
